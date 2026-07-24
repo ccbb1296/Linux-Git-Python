@@ -45,3 +45,9 @@ while True:
             print("정답")
             kor += 1
         else:
+            print(f"오답, 정답은 {num_list2[quiz[ok]]}입니다.")
+        ok += 1
+    yn = input("\n다시 하시겠습니까? (y/n) : ")
+    if yn.lower() != "y":
+        print("프로그램을 종료합니다.")
+        break
